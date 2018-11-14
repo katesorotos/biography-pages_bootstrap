@@ -18,20 +18,23 @@
     height: auto;
     display: block;
   }
-a {
+#women {
+  padding: 50px 0;
+}
+#women a {
     font-family: "Spicy Rice", cursive;
     color: #DBCDC6;
     font-size: 30px;
     text-align: center;
   }
-a:hover {
+#women a:hover {
   font-family: "Spicy Rice", cursive;
   color: #E4C3AD;
   font-size: 30px;
   text-align: center;
 }
-#colophon {
-  padding: 50px 0;
+#social-buttons {
+  padding: 50px 50px;
 }
 .btn-instagram {
   background-color: #1da1f2;
