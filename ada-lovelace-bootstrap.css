@@ -65,6 +65,7 @@ p {
   max-width: 1024px;
   margin: 0 auto;
   display: center;
+  padding: 10px;
 }
 img {
   max-width: 100%;
