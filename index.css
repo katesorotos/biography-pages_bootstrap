@@ -13,6 +13,30 @@
   text-decoration: underline;
   text-align: center;
 }
+.form-inline label {
+  font-family: "Spicy Rice", cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  width: 100%;
+  justify-content: flex-start;
+  border-color: transparent;
+}
+.form-inline input {
+  min-width: 300px;
+  margin-right: 10px;
+  border-color: transparent;
+}
+.form-inline button {
+  color: white;
+  background-color: #E4C3AD;
+  border-color: transparent;
+}
+.form-inline:hover button {
+  color: white;
+  background-color: #DBCDC6;
+  border-color: transparent;
+}
 .container img {
     max-width: 100%;
     height: auto;
@@ -32,4 +56,12 @@
   color: #E4C3AD;
   font-size: 30px;
   text-align: center;
+}
+@media screen and (max-width: 576px) {
+.jumbotron {
+  font-size: 2.5rem;
+}
+.form-btn {
+  margin-top: 10px;
+}
 }
