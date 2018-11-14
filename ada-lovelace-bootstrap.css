@@ -58,6 +58,7 @@ p {
   max-width: 1024px;
   margin: 0 auto;
   display: center;
+  padding: 10px;
 }
 #image3 {
   width: 90%;
@@ -68,7 +69,6 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 .navbar {
   background-color: #DB7093;
