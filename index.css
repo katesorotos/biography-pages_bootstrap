@@ -18,9 +18,15 @@
     height: auto;
     display: block;
   }
-  a {
+a {
     font-family: "Spicy Rice", cursive;
-    color: #DB7093;
+    color: #DBCDC6;
     font-size: 30px;
     text-align: center;
   }
+a:hover {
+  font-family: "Spicy Rice", cursive;
+  color: #E4C3AD;
+  font-size: 30px;
+  text-align: center;
+}
