@@ -1,0 +1,72 @@
+#wrapper {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.jumbotron {
+  background-color: #DB7093;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 600px;
+  padding-top: 100px;
+}
+.jumbotron h1 {
+  font-family: "Spicy Rice", cursive;
+  color: white;
+  font-size: 100px;
+  text-decoration: underline;
+}
+h2 {
+  font-family: "impact";
+  font-size: 40px;
+  color: #FFB6C1;
+}
+#about ul {
+  background: #ff9999;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#about li {
+  list-style-type: none;
+}
+#about ul li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+li strong {
+  color: #ff9999;
+}
+blockquote {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #ff9999;
+  display: block;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+#image {
+  width: 60%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+#image2 {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: center;
+}
+#image3 {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

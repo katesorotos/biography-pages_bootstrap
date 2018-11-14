@@ -1,0 +1,25 @@
+.jumbotron {
+  background-image: url(images/women-in-tech.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 800px;
+}
+.jumbotron h1 {
+  font-family: "Spicy Rice", cursive;
+  color: white;
+  font-size: 100px;
+  text-decoration: underline;
+  text-align: center;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  a {
+    font-family: "Spicy Rice", cursive;
+    color: #DB7093;
+    font-size: 30px;
+    text-align: center;
+  }
