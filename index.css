@@ -33,15 +33,3 @@
   font-size: 30px;
   text-align: center;
 }
-#social-buttons {
-  padding: 50px 50px;
-}
-.btn-instagram {
-  background-color: #1da1f2;
-}
-.btn-facebook {
-  background-color: #3b5998;
-}
-#social-buttons .btn-primary {
-  border-color: transparent;
-}
