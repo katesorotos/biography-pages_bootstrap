@@ -37,16 +37,16 @@ h2 {
 li strong {
   color: #ff9999;
 }
-blockquote {
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-weight: bold;
-  color: #ff9999;
-  display: block;
-}
 p {
   font-family: 'Roboto', sans-serif;
+}
+blockquote p {
+  font-size: 20px;
+  font-family: "Spicy Rice", cursive;
+  text-align: center;
+  color: #ff9999;
+  display: block;
+  letter-spacing: 0.5px;
 }
 #image {
   width: 60%;
