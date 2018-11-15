@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(images/women-in-tech.jpg);
+  background-image: url("images/women-in-tech.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0;
@@ -57,9 +57,17 @@
   font-size: 30px;
   text-align: center;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 800px) {
+.jumbotron h1 {
+  font-size: 3.5rem;
+}
 .jumbotron {
-  font-size: 2.5rem;
+    min-height: 500px;
+}
+}
+@media screen and (max-width: 576px) {
+.jumbotron h1 {
+  font-size: 3.5rem;
 }
 .form-btn {
   margin-top: 10px;
