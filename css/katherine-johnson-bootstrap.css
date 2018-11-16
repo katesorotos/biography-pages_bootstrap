@@ -21,20 +21,20 @@ h2 {
   font-size: 40px;
   color: #FFB6C1;
 }
-#about ul {
+.jumbotron ul {
   background: #ff9999;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
 }
-#about li {
+.jumbotron li {
   list-style-type: none;
 }
-#about ul li {
+.jumbotron ul li {
   background: #ffe5e5;
   padding: 5px;
   margin-left: 35px;
 }
-li strong {
+.jumbotron li strong {
   color: #ff9999;
 }
 p {
@@ -58,12 +58,14 @@ blockquote p {
   max-width: 1024px;
   margin: 0 auto;
   display: center;
+  margin-bottom: 5px;
 }
 #image3 {
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
   display: center;
+  margin-bottom: 5px;
 }
 img {
   max-width: 100%;
@@ -72,4 +74,9 @@ img {
 }
 .navbar {
   background-color: #DB7093;
+}
+@media screen and (max-width: 1000px) {
+  .jumbotron h1 {
+    font-size: 3.0rem;
+  }
 }
