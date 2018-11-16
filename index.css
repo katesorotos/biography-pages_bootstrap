@@ -1,7 +1,7 @@
 .jumbotron {
   background-image: url("images/tech.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 800px;
   border-radius: 0;
   padding-top: 50px;
