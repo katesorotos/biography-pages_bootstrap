@@ -21,38 +21,37 @@ h2 {
   font-size: 40px;
   color: #FFB6C1;
 }
-.jumbotron ul {
+#about ul {
   background: #ff9999;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
 }
-.jumbotron li {
+#about li {
   list-style-type: none;
 }
-.jumbotron ul li {
+#about ul li {
   background: #ffe5e5;
   padding: 5px;
   margin-left: 35px;
 }
-.jumbotron li strong {
+li strong {
   color: #ff9999;
+}
+blockquote {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #ff9999;
+  display: block;
 }
 p {
   font-family: 'Roboto', sans-serif;
-}
-blockquote p {
-  font-size: 20px;
-  font-family: "Spicy Rice", cursive;
-  text-align: center;
-  color: #ff9999;
-  display: block;
-  letter-spacing: 0.5px;
 }
 #image {
   width: 60%;
   max-width: 1024px;
   margin: 0 auto;
-
 }
 #image2 {
   width: 90%;
@@ -70,12 +69,4 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-.navbar {
-  background-color: #DB7093;
-}
-@media screen and (max-width: 800px) {
-  #image2 {
-    margin-bottom: 5px;
-  }
 }
