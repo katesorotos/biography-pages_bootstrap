@@ -26,37 +26,34 @@
   min-width: 300px;
   margin-right: 10px;
   border-color: #DBCDC6;
+  margin-bottom: 15px;
 }
 .form-inline button {
   color: white;
   background-color: #E4C3AD;
   border-color: transparent;
+  margin-bottom: 15px;
 }
 .form-inline:hover button {
   color: white;
   background-color: #DBCDC6;
   border-color: transparent;
 }
-.container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+#carouselExampleIndicators a {
+    font-family: "Spicy Rice", cursive;
+    color: #E4C3AD;
+    font-size: 60px;
+    text-align: center;
+    padding: 50px 0;
   }
-#women {
+#carouselExampleIndicators a:hover {
+  font-family: "Spicy Rice", cursive;
+  color: #DBCDC6;
+  font-size: 60px;
+  text-align: center;
   padding: 50px 0;
 }
-#women a {
-    font-family: "Spicy Rice", cursive;
-    color: #DBCDC6;
-    font-size: 30px;
-    text-align: center;
-  }
-#women a:hover {
-  font-family: "Spicy Rice", cursive;
-  color: #E4C3AD;
-  font-size: 30px;
-  text-align: center;
-}
+
 @media screen and (max-width: 800px) {
 .jumbotron h1 {
   font-size: 5.0rem;
@@ -65,6 +62,9 @@
 @media screen and (max-width: 600px) {
 .jumbotron h1 {
   font-size: 4.5rem;
+}
+#carouselExampleIndicators {
+  margin: 20px;
 }
 }
 @media screen and (max-width: 576px) {
