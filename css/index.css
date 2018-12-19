@@ -39,6 +39,27 @@
   background-color: #DBCDC6;
   border-color: transparent;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+a {
+  font-family: "Spicy Rice", cursive;
+  color: #E4C3AD;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0;
+}
+a:hover {
+  font-family: "Spicy Rice", cursive;
+  color: #DBCDC6;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0;
+}
 #carouselExampleIndicators a {
     font-family: "Spicy Rice", cursive;
     color: #E4C3AD;
