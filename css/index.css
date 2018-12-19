@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("images/tech.jpg");
+  background-image: url("../images/tech.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 800px;
